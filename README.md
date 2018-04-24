@@ -1,8 +1,12 @@
 # README
 
 All files are based on Wes Bos's 'What the Flexbox' course.
+
 Repo: [https://github.com/wesbos/What-The-Flexbox](https://github.com/wesbos/What-The-Flexbox)
+
 YouTube: [https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid)
+
+CSS Tricks: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## Intro - Video #2
 
@@ -27,6 +31,13 @@ these change the direction of the main access from right to left and bottom to t
 become 300px wide. They all just fit into the same container
 
 
+## Flexbox Ordering - Video #5
+- Flexbox default order is 0
+- the lowest number comes first
+- You can enter `-1`
+- Can't be used if you are trying order p tags because it will change how the text is copied
+
+## Flexbox Alignment & Centering with Justify-Content - Video #6
 
 
 
