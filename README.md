@@ -9,9 +9,6 @@ YouTube: [https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVd
 CSS Tricks: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## Video #2: Intro
-
-Video: [https://www.youtube.com/watch?v=ND8SjPJOk_M&index=2&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid](https://www.youtube.com/watch?v=ND8SjPJOk_M&index=2&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid)
-
 - by adding `display: flex;` we make all the sub-items automatically flex as well.
 - notice how NONE of the boxes are actually designated as `display: inline-block;` but they
 automatically have a width commensurate to their content
@@ -30,7 +27,6 @@ these change the direction of the main access from right to left and bottom to t
 - notice that despite setting the **flex-items** with class `box` to `width: 300px;`, they don't actually
 become 300px wide. They all just fit into the same container
 
-
 ## Video #5: Flexbox Ordering
 - Flexbox default order is 0
 - the lowest number comes first
@@ -47,6 +43,12 @@ become 300px wide. They all just fit into the same container
 ## Video #7: Flexbox Alignment & Centering with Align-Items
 - by default, `align-items: stretch;` is set
 
+## Video #8: Flexbox Alignment & Centering with Align-Content
+- [https://css-tricks.com/snippets/css/a-guide-to-flexbox/#article-header-id-8](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#article-header-id-8)
+- align-content really only works when you have multiple lines of content
+- You need some sort of wrap: `flex-wrap: wrap;` for it to work
+- `align-content: stretch;` is the default
+- see the link above for each of the different kinds of align-content
 
 
 
