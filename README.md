@@ -8,7 +8,7 @@ YouTube: [https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVd
 
 CSS Tricks: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-## Intro - Video #2
+## Video #2: Intro
 
 Video: [https://www.youtube.com/watch?v=ND8SjPJOk_M&index=2&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid](https://www.youtube.com/watch?v=ND8SjPJOk_M&index=2&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid)
 
@@ -16,7 +16,7 @@ Video: [https://www.youtube.com/watch?v=ND8SjPJOk_M&index=2&list=PLu8EoSxDXHP7xj
 - notice how NONE of the boxes are actually designated as `display: inline-block;` but they
 automatically have a width commensurate to their content
 
-## Flex Direction - Video #3
+## Video #3: Flex Direction
 - `flex-direction: row;` is the default value so nothing changes when we add this property
 - notice how `flex-direction: column;` stacks them vertically
 - the "Main" and "Cross" axes depend on their direction. For "row" direction:
@@ -26,21 +26,26 @@ automatically have a width commensurate to their content
 - We can also reverse the order that the items appear by using `row-reverse` and `column-reverse`. Both of
 these change the direction of the main access from right to left and bottom to top, respectively
 
-## Wrapping Elements with Flexbox - Video #4
+## Video #4: Wrapping Elements with Flexbox
 - notice that despite setting the **flex-items** with class `box` to `width: 300px;`, they don't actually
 become 300px wide. They all just fit into the same container
 
 
-## Flexbox Ordering - Video #5
+## Video #5: Flexbox Ordering
 - Flexbox default order is 0
 - the lowest number comes first
 - You can enter `-1`
 - Can't be used if you are trying order p tags because it will change how the text is copied
 
-## Flexbox Alignment & Centering with Justify-Content - Video #6
+## Video #6: Flexbox Alignment & Centering with Justify-Content
+- justify content says how the items are aligned on the main axis
+- The **Main Axis** by default is left to right
+- The **Cross Axis** by default goes top to bottom
+- `flex-direction: row` is default
+- always look for your main access. If `flex-direction: column;`, your main access is top to bottom
 
-
-
+## Video #7: Flexbox Alignment & Centering with Align-Items
+- by default, `align-items: stretch;` is set
 
 
 
